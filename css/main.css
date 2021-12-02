@@ -116,12 +116,12 @@ body {
     background-color: #ffffff;
     color: #000000;
     font-size: 1.2rem;
-    width: 20rem;
+    width: 15rem;
     text-align: center;
     margin-bottom: 1rem; }
   .formulario_btn_submit {
     display: block;
-    width: 10rem;
+    width: 15rem;
     font-size: 1.2rem;
     background-color: #666666;
     color: #ffffff;
@@ -194,3 +194,15 @@ body {
     .falla_parrafo a {
       text-decoration: underline;
       color: gray; }
+
+.top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.title {
+  font-size: 1em;
+  border-bottom: solid 1px gray; }
+
+.subtitle {
+  font-size: 0.7em; }
