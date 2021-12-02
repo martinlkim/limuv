@@ -1,0 +1,22 @@
+.help {
+    max-width: 70%;
+    &__title_big {
+        text-transform: uppercase;
+        font-size: 2rem;
+        text-align: center;
+
+    }
+    &__title {
+        text-transform: lowercase;
+        font-size: 1,5rem;
+        margin: 2rem;
+    }
+    &__parrafo {
+        line-height: 2rem;
+    }
+}
+
+.ayuda {
+display: flex;
+justify-content: center;
+}

@@ -1,0 +1,30 @@
+.twophotos {
+    position: relative;
+    margin-bottom: 0.4rem;
+
+    &_fondo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+        &_imagen {
+            width: 50%;
+        }
+    }
+
+    &_contenido {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &_titulo {
+        color: $clr-black;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 400;
+        
+    }
+}

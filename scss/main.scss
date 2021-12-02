@@ -1,0 +1,29 @@
+@import "./base/reset", "./base/variables";
+@import "./layout/header", "./layout/hero", "./layout/video", "./layout/form", "./layout/twophotos", "./layout/footer", "./layout/help";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+.falla {
+    background-color: $clr-black;
+    padding: 3em;
+    
+
+    &_titulo {
+        font-size: 2.5em;
+        color: $clr-white;
+        text-align: center;
+        font-weight: 700;
+        margin-bottom: 1em;
+    }
+
+    &_parrafo {
+        font-size: 1em;
+        color: $clr-white;
+        text-align: center;
+        margin-bottom: 0.5em;
+
+        a {
+            text-decoration: underline;
+            color: gray;
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.pie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    height: 8rem;
+    &_derecho {
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+    &_redes {
+        font-size: 1.2rem;
+    }
+}
