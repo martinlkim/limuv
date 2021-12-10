@@ -4,7 +4,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
     top: 0;
     right: 0;
     left: 0;
@@ -24,15 +23,23 @@
         &_item {
             display: inline-block;
             padding-left: 0.8em;
-            position: relative;
-
+            
+            &_ancla {
+                display: block;
+                padding: 10px 12px;
+                background-color: $clr-white;
+            }
             &_lista {
                 display: none;
                 position: absolute;
+                width: 140px;
                 z-index: 3;
 
                 &_item {
                 display: block;
+                width: 150px;
+                background-color: $clr-white;
+                text-align: center;
                     
 
                     &_ancla {

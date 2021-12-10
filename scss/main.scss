@@ -2,6 +2,8 @@
 @import "./layout/header", "./layout/hero", "./layout/video", "./layout/form", "./layout/twophotos", "./layout/footer", "./layout/help";
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
+
+/* NOT FOUND PAGE*/
 .falla {
     background-color: $clr-black;
     padding: 3em;
@@ -28,18 +30,75 @@
     }
 }
 
-.top {
+/* STREETWEAR PAGE*/
+.fotos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
 
+    p {
+        text-align: center;
+    }
+    
+    input {
+        width: 10rem;
+        font-size: 1em;
+        background-color: $clr-black;
+        color: $clr-white;
+    }
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 1em;
 }
 
 .title {
     font-size: 1em;
     border-bottom: solid 1px gray;
+    padding-left: 1em;
 }
 
 .subtitle {
     font-size: 0.7em;
+    padding-left: 1.4em;
 }
+
+.subtitle2 {
+    font-size: 0.7em;
+    margin-top: 3em;
+    border-top: solid 1px gray;
+    padding-left: 1.4em;
+}
+
+/* CUENTA PAGE */
+
+.cuenta {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    display: flex;
+    justify-content: center;
+    
+    &_caja {
+        width: 20rem;
+    }
+    &_btn {
+        width: 20rem;
+        font-size: 1em;
+        padding: 0.5em;
+        margin-top: 1em;
+        margin-bottom: 1em;
+
+    &_pass {
+        font-size: 0.5em;
+        text-align: right;
+        color: $clr-gray;
+    }
+}
+}
+
