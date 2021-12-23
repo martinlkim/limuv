@@ -241,7 +241,7 @@ body {
 /* CUENTA PAGE */
 .cuenta {
   padding-top: 9rem;
-  padding-bottom: 9rem;
+  padding-bottom: 12rem;
   display: flex;
   justify-content: center; }
   .cuenta_caja {
@@ -256,3 +256,9 @@ body {
       font-size: 0.5em;
       text-align: right;
       color: #666666; }
+
+/* CARRITO */
+.centrado {
+  display: flex;
+  justify-content: center;
+  padding-top: 17rem; }
